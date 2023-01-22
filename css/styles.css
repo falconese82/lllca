@@ -1,0 +1,221 @@
+
+body{
+  text-align: center;
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans Arabic-Bold";
+}
+
+p{
+  color: #8f8f8f
+}
+
+/* Headings Section */
+
+.big-heading{
+  font-family: "Noto Sans Arabic-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section_heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.align{
+  text-align: justify;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 10% 15% 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #123C73;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #F2BFSE;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 1.5rem;
+}
+
+.navbar-brand {
+  font-family: "Noto Sans Arabic-black";
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  font-family: "Noto Sans Arabic-light";
+  font-size: 1.2rem;
+  /* padding: 1rem; */
+}
+
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* Title Section */
+
+#title {
+  text-align: right;
+}
+
+#title .container-fluid{
+  padding: 7% 15% 7% 15%;
+}
+
+/* Title Image */
+.title-image{
+  width: 80%;
+  /* transform: rotate(25deg); */
+  /* position: absolute;  */
+  /* left: 30%; */
+}
+
+.logo-image{
+  width: 15%;
+  border-radius: 20%;
+  align-items: center;
+  /* margin: 20px; */
+}
+/* littleCoders */
+
+#littleCoders{
+  /* position: relative; */
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color: #123C73;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #8c8069;
+}
+
+/* webDevs Section */
+#webDevs{
+  /* background-color: #fff; */
+  /* color: #123C73; */
+}
+
+/* .carousel-item{
+  background-color: #123c73;
+} */
+
+.webDev-text{
+font-size: 2rem;
+line-height: 1.5;
+/* text-align: justify; */
+}
+
+.webDev-image{
+  width: 30%;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.robot-image{
+  width: 80%;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #3d5473;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 08%;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+/* paths Section */
+
+#paths{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  background-color:   #3d5473;
+}
+
+.paths-column{
+  padding: 3% 2%;
+}
+
+.card-header{
+  background-color: #3d5473;
+}
+
+
+/* Footer Section */
+#footer{
+    background-color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
